@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Proyecto</title>
+
+        <script defer src="aplicacion.js"></script>
+    </head>
+
+    <body>
+        <nav>
+            <div  class="nav-wrapper">
+              <a href="index.html" class="brand-logo center"><i class="material-icons">headset</i>Disco Cueva</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="cart">
+                    <i class="large material-icons">shopping_cart</i>
+                    <li id="cartCounter" class="cartCounter">0</li>
+                </li>
+                <li><i onclick="usuario()"  id="nombre_apellido" class="large material-icons">account_circle</i></li>
+              </ul>
+            </div>
+          </nav>
+
+        <main>
+            <div class="contenedor_fluido">
+                <div id="productosLista">
+                    
+                </div>
+                
+            </div>
+        </main>
+        <br>
+        <br>
+        <!-- <p> Ingrese cuanto puede gastar</p>
+        <input type="number" placeholder="Valor en pesos" id="tope">
+
+            <button onclick="mostrar()" id="buttonmostrar">Para que me alcanza?</button>
+         -->
+
+    </body>
+</html>
